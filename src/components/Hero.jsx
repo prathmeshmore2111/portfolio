@@ -54,16 +54,6 @@ export default function Hero({ onSelectProject }) {
           <line x1="550" y1="480" x2="480" y2="220" strokeWidth="0.75" strokeDasharray="2 2" />
         </svg>
 
-        {/* Registration Marks */}
-        <div className="absolute top-24 left-6 flex items-center gap-1.5 opacity-40">
-          <span className="w-2.5 h-2.5 rounded-full border border-primary flex items-center justify-center">
-            <span className="w-0.5 h-0.5 bg-primary rounded-full"></span>
-          </span>
-          <span className="font-label-caps text-[9px] tracking-widest text-primary font-bold">
-            REG // X:42.08 Y:19.44
-          </span>
-        </div>
-
         {/* CMYK Prepress Color Calibration Blocks */}
         <div className="absolute bottom-6 right-8 hidden md:flex items-center gap-2 opacity-40">
           <span className="w-3 h-3 rounded-full bg-[#00ffff] border border-primary/20" title="Cyan"></span>

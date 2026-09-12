@@ -39,7 +39,8 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
           {/* Left Column: Portrait & Availability */}
           <div className="lg:col-span-5 flex flex-col justify-between h-full w-full max-w-md sm:max-w-lg lg:max-w-none mx-auto lg:mx-0">
-            <div className="relative rounded-2xl overflow-hidden bg-surface-container border border-surface-container-highest shadow-lg group w-full h-[420px] sm:h-[480px] md:h-[520px] lg:h-auto lg:flex-1 min-h-0">
+            <div className="relative rounded-2xl overflow-hidden bg-surface-container border border-surface-container-highest shadow-lg 
+            group w-full h-[540px] sm:h-[620px] md:h-[700px] lg:min-h-[660px] lg:h-full lg:flex-1">
               <img
                 src="/images/about-portrait.jpg"
                 alt="Prathamesh More — Graphic Designer & Visual Communication Specialist"

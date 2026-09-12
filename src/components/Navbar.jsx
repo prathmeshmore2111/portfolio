@@ -51,7 +51,7 @@ export default function Navbar({ onOpenDrawer }) {
           <img 
             src="/images/logo.png" 
             alt="Prathamesh More Logo" 
-            className="h-9 sm:h-10 w-auto object-contain transition-transform group-hover:scale-105"
+            className="h-9 sm:h-10 w-auto object-contain transition-transform rounded-full"
           />
           <span className="hidden sm:inline font-bold">Prathamesh More</span>
           <span className="sm:hidden font-bold">Prathamesh</span>
