@@ -45,7 +45,7 @@ export default function About() {
                 alt="Prathamesh More — Graphic Designer & Visual Communication Specialist"
                 className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
-              
+
               {/* Floating Bottom Card */}
               <div className="absolute bottom-4 left-4 right-4 bg-surface/95 backdrop-blur-md p-3.5 rounded-xl border border-surface-container-highest flex items-center justify-between shadow-sm z-10">
                 <div className="flex items-center gap-2.5">
