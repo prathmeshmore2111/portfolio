@@ -120,6 +120,7 @@ export default {
         'marquee-reverse': 'marquee-reverse 28s linear infinite',
         'marquee-slow': 'marquee 40s linear infinite',
         'marquee-reverse-slow': 'marquee-reverse 45s linear infinite',
+        fadeIn: 'fadeIn 0.2s ease-out forwards',
       },
       keyframes: {
         marquee: {
@@ -129,7 +130,11 @@ export default {
         'marquee-reverse': {
           '0%': { transform: 'translateX(-50%)' },
           '100%': { transform: 'translateX(0%)' },
-        }
+        },
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'scale(0.98)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
       }
     },
   },
